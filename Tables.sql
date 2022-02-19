@@ -1,5 +1,4 @@
---drop table if already exists
-DROP TABLE departments;
+
 --creating table departments:
 CREATE TABLE departments (
   dept_no VARCHAR(30) Primary key,
@@ -9,8 +8,6 @@ CREATE TABLE departments (
 SELECT * FROM departments;
 
 --creating table titles
-DROP TABLE titles;
-
 CREATE TABLE titles(
 	title_id VARCHAR(10) PRIMARY KEY,
 	title VARCHAR(50) NOT NULL
@@ -19,9 +16,6 @@ CREATE TABLE titles(
 SELECT * FROM titles;
 
 --creating table employees
---drop table if already exists
-DROP TABLE employees;
-
 CREATE TABLE employees(
 	emp_no INTEGER PRIMARY KEY,
 	emp_title_id VARCHAR (30) NOT NULL,
@@ -36,8 +30,6 @@ CREATE TABLE employees(
 SELECT * FROM employees;
 
 --creating table dept_emp
-DROP TABLE dept_emp;
-
 CREATE TABLE dept_emp(
   emp_no INTEGER,
   dept_no VARCHAR(30) NOT NULL,
@@ -48,7 +40,6 @@ CREATE TABLE dept_emp(
 SELECT * FROM dept_emp;
 
 --creating table dept_managers
-DROP TABLE dept_managers;
 CREATE TABLE dept_managers(
 	dept_no VARCHAR(10) NOT NULL,
 	emp_no INTEGER NOT NULL,
@@ -59,7 +50,6 @@ CREATE TABLE dept_managers(
 SELECT * FROM dept_managers;
 
 --creating table salaries
-DROP TABLE salaries
 CREATE TABLE salaries(
 	emp_no INTEGER NOT NULL,
 	salary INTEGER NOT NULL,
