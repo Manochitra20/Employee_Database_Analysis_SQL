@@ -8,11 +8,14 @@ As a new hire Data Engineer, the first major task is a research project on emplo
 
 **THE OUTPUT STRUCTURE:**
 
-i) Tables.sql is containing my codes in SQL languages to query the data
+i) Employee_ERD.png depicts the ERD of the tables.
 
-ii) Analysis.sql is the codes for data modeling
+ii) Tables.sql is containing my codes in SQL languages to query the data
 
-iii) .ipynb checkpoints: Jupyter notebook contains codes and graphs for salary vs title analysis
+
+iii) Analysis.sql is the codes for data modeling
+
+iv) .ipynb checkpoints: Jupyter notebook contains codes and graphs for salary vs title analysis
 
 
 **Requirements and Methodology:**
