@@ -8,13 +8,12 @@ As a new hire Data Engineer, the first major task is a research project on emplo
 
 **THE OUTPUT STRUCTURE:**
 
-i) the .sql is containing my codes in SQL languages to query the data
+i) Tables.sql is containing my codes in SQL languages to query the data
 
-ii) the schema.sql is the codes for data modeling
+ii) Analysis.sql is the codes for data modeling
 
-iii) .ipynb checkpoint: Jupiternotebook contains my codes and charts for salary vs title analysis
+iii) .ipynb checkpoints: Jupyter notebook contains codes and graphs for salary vs title analysis
 
-iv) Outputs | Data: the outputs and resources as csv files and chart from my works
 
 **Requirements and Methodology:**
 
@@ -26,24 +25,21 @@ ii) SQL | PgAdmin4
 
 iii) SQLAlchemy
 
-iv) DB Browser for SQLite
-
 v) Python | Matplotlib
 
 **Findings:**
 
-The average salary group by job titles in the Company;
+ 
+ ![employee_salary_ranges](https://user-images.githubusercontent.com/95401250/173175935-957756cb-8ee7-4333-8560-0483181935f8.png)
+ 
 
+![average_salary_by_title](https://user-images.githubusercontent.com/95401250/173175929-7c46d7dd-43e2-4208-aa00-7353561c7fb1.png)
+ 
 
+The most common salary range is 40k-50k followed by 60-70k in the company.
+Only a few employees receive salary above 100k.
 
-the most common salary range is 40k which is belong to more than 40 thousands staff in the company;
-
-the next range is from 50K to 70K that's falling into nearly 40 thousands staff.
-
-the less frequency of salary range is from 110K that just rewarding to less than 1 thousand people in the Company.
-
-Overall, the Company has a rather fair payroll range for its employees. It would be great if its benefits and allowances come in good package.
-
+Overall, the company has a rather fair payroll range for its employees and it seems to be fair across the titles too.
 
 Author:
 
