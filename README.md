@@ -1,6 +1,6 @@
 **PROJECT BACKGROUND:**
 
-As a new hire Data Engineer, the first major task is a research project on employees of the corporation from the 1980s and 1990s. In this project, I have designed tables to hold data in the 6 CSVs, import the CSVs into a SQL database, and perform data analysis.
+As a new hire Data Engineer, the first major task is a research project on employees of the corporation from the 1980s and 1990s. In this project, I have designed tables to hold data from the 6 CSVs, import the CSVs into a SQL database, and perform data analysis.
 
 1. Data Engineering | Data Modeling
 
@@ -20,7 +20,7 @@ iv) .ipynb checkpoints: Jupyter notebook contains codes and graphs for salary vs
 
 **Requirements and Methodology:**
 
-In carry out the analysis the following tools/resources were used:
+In order to carry out the analysis the following tools/resources were used:
 
 i) http://www.quickdatabasediagrams.com
 
